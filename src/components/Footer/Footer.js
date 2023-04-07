@@ -7,9 +7,9 @@ export default function Footer() {
             <h2 className="invite">Have an idea you want to bring to life? Let's chat ✷ </h2>
             <div className="socials">
                 <ul>
-                    <a href="https://www.linkedin.com/in/ivy-chen-4065aab7/" target="_blank"><li>Linkedin</li></a>
-                    <a href="https://www.instagram.com/wonderbar.studio/" target="_blank"><li>Instagram</li></a>
-                    <a href="https://twitter.com/Ivavay" target="_blank"><li>Twitter</li></a>
+                    <a href="https://www.linkedin.com/in/ivy-chen-4065aab7/" target="_blank" rel="noreferrer" ><li>Linkedin</li></a>
+                    <a href="https://www.instagram.com/wonderbar.studio/" target="_blank" rel="noreferrer" ><li>Instagram</li></a>
+                    <a href="https://twitter.com/Ivavay" target="_blank" rel="noreferrer" ><li>Twitter</li></a>
                 </ul>
                 <div className="email">📨 ivy0925chen@gmail.com</div>
             </div>

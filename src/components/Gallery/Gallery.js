@@ -11,14 +11,12 @@ export default function Gallery() {
     return(
         <div>
             <div className="project-row">
-                <div className="overlay">
-                    <Project 
+                <Project 
                      thumbnail={salad}
                      title="Nicole's Newsletter Graphics"
                      blurb="A series of graphics for Nicole's newsletter"
                      tag="Client"
                 />
-                </div>
              <Link to="/streetfood" relative="/streetfood">
                 <Project 
                      thumbnail={streetfood}
