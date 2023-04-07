@@ -1,5 +1,5 @@
 import "./Accordian.css"
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 export default function AccordianItem(props) {
     const [show, setShow] = useState(false);
     const handleOpen = () => {
