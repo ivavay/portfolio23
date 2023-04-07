@@ -14,6 +14,8 @@ export default function Home() {
             <Gallery />
             <Footer />
         </div>
-    )
 
+        
+    )
+        
 }
