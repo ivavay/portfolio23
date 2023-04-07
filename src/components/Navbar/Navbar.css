@@ -1,0 +1,35 @@
+.tab {
+    padding: 8px 16px;
+    border-radius: 5px 5px 0 0 ;
+    background-color: #baefff;
+    text-decoration: none;
+}
+
+.tabs-left {
+    display: flex;
+    padding: 16px 0 0 0;
+    background-color: #cef4ff;
+}
+
+.tabs-right {
+    display: flex;
+    padding: 16px 0 0 0;
+    background-color: #cef4ff;
+}
+
+.tabs {
+    background-color: #cef4ff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-active {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .tab {
+        padding: 8px;
+    }
+}

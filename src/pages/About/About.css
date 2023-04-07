@@ -1,0 +1,25 @@
+.bio {
+    padding: 0 80px;
+}
+.faq {
+    padding: 80px 80px 24px 80px;
+}
+h2 {
+    padding: 114px 80px 80px 80px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    h2 {
+     font-size: 24px;
+     padding: 114px 40px 80px 40px;
+    }
+    .bio {
+        padding: 0 40px;
+    }
+    .faq {
+        padding: 40px 40px 24px 40px;
+    }
+ }
+
+

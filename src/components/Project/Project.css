@@ -1,0 +1,35 @@
+.project-card {
+    padding: 0 0 80px 0;
+    margin: 0;
+  }
+  
+.thumbnail {
+    width: 43vw;
+    height: 70vh;
+    background-color: white;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+.tags {
+    display: flex;
+    margin: 24px 0 0 0;
+  }
+
+.tag {
+    padding: 8px 16px;
+    background-color: #baefff;
+    color: rgb(4, 47, 178);
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 16px 0 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .thumbnail {
+      width: 80vw;
+      height: 40vh;
+    }
+  }
+ 

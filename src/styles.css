@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600;700&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+}
+/* page header */
+h1 {        
+    color: #646464;
+    font-size: 64px;
+    font-family: 'Varela Round', sans-serif;
+   
+}
+/* home header */
+h2 {
+    color: rgb(4, 47, 178);
+    font-size: 32px;
+    font-family: 'Varela Round', sans-serif;
+    padding: 114px 40px 80px 40px;
+    line-height: 1.5;
+}
+.highlighter {
+    background: #FFFA88;
+}
+/* title project */
+h2.title {
+    color: rgb(4, 47, 178);
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+    padding: 16px 0 8px 0;
+}
+/* tabs */
+h3 {
+    font-weight: 400;
+    color: rgb(4, 47, 178);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* tags + copyright*/
+h4 {
+    color: #4F4F4F;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+}
+p {
+    color: rgb(4, 47, 178);
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.two-column-imgs {
+    display: flex;
+    padding: 40px 80px;
+    justify-content: space-between;
+
+}
+img {
+    width: 48%;
+    object-fit: contain;
+    margin: 0 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.underline{
+    color: rgb(4, 47, 178);
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: underline;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+   h2 {
+    font-size: 24px;
+    padding: 40px;
+   }
+   .two-column-imgs {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+    }
+    img {
+    width: 100%;
+    margin: 24px 0;
+    object-fit: contain;
+    }
+
+    }

@@ -1,0 +1,20 @@
+.project-row {
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+    .project-row {
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .project-row {
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+    }
+} */
