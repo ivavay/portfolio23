@@ -8,7 +8,7 @@ import gif from "../../images/strava.gif"
 export default function Strava() {
     return(
         <div>
-            <img src={stravatn} className="banner"/>
+            <img src={stravatn} alt="banner" className="banner"/>
             <h2 className="header">Strava Redesign</h2>
             <div className="two-col">
                 <div>
@@ -27,17 +27,17 @@ export default function Strava() {
             <h2 className="title">Ideation</h2>
             <p>I chose to do this particular feature’s redesign because I believe that doing things collectively is more motivating than doing things alone. I thought that this existing Strava could be improved via simplicity with more emphasis on seeing each others’ updates.</p>
             <div className="center">
-                <img src={sketches} className="fullsize-img"/>
+                <img alt="sketch" src={sketches} className="fullsize-img"/>
             </div>
             <h2 className="title">Iterations based on Feedbacks</h2>
             <div className="center">
-                <img src={feedback} className="fullsize-img"/>
+                <img alt="feedback"src={feedback} className="fullsize-img"/>
             </div>
             <p>I fixed my designs based on feedback from two POC designers</p>
             <h2 className="title">Solutions Statement</h2>
             <p>This redesign aims solve the problem of lack of accountability for runners working towards a collective runnning goal.</p>
             <div className="center">
-                <img src={gif} className="midsize-img"/>
+                <img src={gif} alt="gif" className="midsize-img"/>
             </div>
             <h2 className="title">Try out the protytpe here</h2>
             <p>Feel free to use options in the top right corner to adjust your viewing preference and bottom right corner to restart the flow.</p>
