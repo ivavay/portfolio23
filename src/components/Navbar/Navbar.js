@@ -6,9 +6,9 @@ export default function Navbar() {
     return(
         <div className="tabs">
         <div className="tabs-left">
-            <div className="tab">
+            <NavLink to="/design" className={({isActive}) => isActive ? "tab tab-active" : "tab"}>
                 <h3>🖱 Product Design </h3>
-            </div>
+            </NavLink>
             <NavLink to="/" className={({isActive}) => isActive ? "tab tab-active" : "tab"}>
                 <h3>🎨 3D </h3>
             </NavLink>

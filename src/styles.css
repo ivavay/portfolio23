@@ -69,6 +69,9 @@ a {
     font-family: 'Varela Round', sans-serif;
     text-decoration: underline;
 }
+.regular {
+    padding: 0;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
    h2 {

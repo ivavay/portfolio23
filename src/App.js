@@ -1,6 +1,8 @@
 import Home from "./pages/Home/Home"
 import About from "./pages/About/About"
 import Streetfood from "./pages/Streetfood/Streetfood"
+import Design from "./pages/Design/Design"
+import Strava from "./pages/Strava/Strava"
 import "./components/Navbar/Navbar.css"
 import "./components/Footer/Footer.css"
 import { BrowserRouter, Routes, Route} from "react-router-dom"
@@ -12,6 +14,8 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/streetfood" element={<Streetfood />}/>
+        <Route path="/design" element={<Design />}/>
+        <Route path="/strava" element={<Strava />}/>
       </Routes>
     </BrowserRouter>
   );

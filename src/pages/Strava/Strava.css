@@ -1,0 +1,62 @@
+.banner {
+    margin: 0;
+    padding: 0;
+    height: 40vw;
+    width: 100%;
+    object-fit: cover;
+}
+.header {
+    font-size: 32px;
+}
+.two-col {
+    display: flex;
+    justify-content: space-between;
+}
+.small-p {
+    width: 70%;
+    padding: 0 80px;
+}
+
+h2.title {
+    padding: 16px 80px;
+    font-size: 24px;
+}
+
+p {
+    padding: 16px 80px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    
+}
+.fullsize-img {
+    padding: 16px 80px;
+    margin: 0;
+    width: 87vw;
+}
+.midsize-img {
+    width: 25%
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .two-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .midsize-img {
+        width: 83%;
+    }
+    h2.title {
+        padding: 16px 40px;
+        font-size: 24px;
+    }
+    .small-p {
+        padding: 16px 40px;
+    }
+    p {
+        padding: 16px 40px;
+    }
+}

@@ -15,7 +15,12 @@
     display: flex;
     margin: 24px 0 0 0;
   }
-
+.title-card {
+    padding: 16px 0;
+}
+.blurb {
+    padding: 0
+}
 .tag {
     padding: 8px 16px;
     background-color: #baefff;

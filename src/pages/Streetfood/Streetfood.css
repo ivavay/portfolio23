@@ -1,3 +1,7 @@
 a {
     text-decoration: none;
 }
+
+.regular {
+    padding: 0;
+}
