@@ -41,7 +41,7 @@ export default function Strava() {
             </div>
             <h2 className="title">Try out the protytpe here</h2>
             <p>Feel free to use options in the top right corner to adjust your viewing preference and bottom right corner to restart the flow.</p>
-            <iframe color="white" width="100%" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FbJSR6LYlrK2BptePaZJLmk%2FUseful-School-HW%3Fpage-id%3D105%253A54%26node-id%3D105-254%26starting-point-node-id%3D105%253A254%26scaling%3Dscale-down" allowfullscreen></iframe>
+            <iframe color="white" width="100%" height="800" title="This is a prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FbJSR6LYlrK2BptePaZJLmk%2FUseful-School-HW%3Fpage-id%3D105%253A54%26node-id%3D105-254%26starting-point-node-id%3D105%253A254%26scaling%3Dscale-down" allowfullscreen></iframe>
             <h2 className="title">Reflection</h2>
             <p>If I had more time + resources, I would do a larger and more diverse sample size for initial user testing and user feedback for the prototype to make sure it’s encompassing for diverse user groups. I learned how to use UserTesting.com and got more comfortable with prototyping in Figma. Challenges-wised, it was still a little difficult for me to balance taking in insights from user reserach with my own ideas for the solution, but I tried my best based on what I could comprehend.</p>
        </div>
