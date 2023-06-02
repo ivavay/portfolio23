@@ -52,11 +52,11 @@ p {
     display: flex;
     padding: 40px 80px;
     justify-content: space-between;
-
+    
 }
 img {
     width: 48%;
-    object-fit: contain;
+    object-fit: cover;
     margin: 0 8px;
 }
 

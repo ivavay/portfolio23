@@ -12,12 +12,14 @@ export default function Gallery() {
     return(
         <div>
             <div className="project-row">
+            <Link to="/newsletter" relative="/newsletter">
                 <Project 
                      thumbnail={salad}
                      title="Nicole's Newsletter Graphics"
                      blurb="A series of graphics for Nicole's newsletter"
                      tag="Client"
                 />
+            </Link>
              <Link to="/streetfood" relative="/streetfood">
                 <Project 
                      thumbnail={streetfood}

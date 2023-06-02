@@ -15,7 +15,7 @@ export default function Streetfood(){
                 <br></br>
                 <p className="regular">
                 I was responsible for making the 3D illustrations. I used Cinema4D to make a total of ten 3D renders to go long with the most popular street snacks ranking over the years. 
-                See live interactice website <a className="underline" href="https://taiwandatastories.com/taiwan-street-food-interactive/" target="blank" rel="noreferrer" >here</a>.
+                See live interactive website <a className="underline" href="https://taiwandatastories.com/taiwan-street-food-interactive/" target="blank" rel="noreferrer" >here</a>.
                 </p>
             </div>
             <div class="two-column-imgs">
