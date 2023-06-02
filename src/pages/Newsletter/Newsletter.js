@@ -13,7 +13,7 @@ export default function Newsletter(){
             <Navbar />
             <h2>Nicole's Newsletter Graphics</h2>
             <div className="bio">
-                <p className="regular">A couple months ago, I had the chance to work with Nicole Garcia for her <a target="_blank" className="underline" href="https://wontonface.substack.com/">newsletter</a> on freelancing and product design. It had 
+                <p className="regular">A couple months ago, I had the chance to work with Nicole Garcia for her <a target="_blank" rel="noreferrer" className="underline" href="https://wontonface.substack.com/">newsletter</a> on freelancing and product design. It had 
                 been a blast working with her and ideating different ways to visualize her articles in 3D. 
                 </p>
                 <br></br>
