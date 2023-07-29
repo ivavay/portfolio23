@@ -18,7 +18,7 @@ export default function Navbar() {
                 <h3>💁🏻‍♀ About </h3>
             </NavLink>
          <div className="tab">
-             <a href="https://docs.google.com/document/d/1a4J5YuASPv-mpVGbAPkIqFhthSvhMpKWs6ZtMLZ-8xY/edit?usp=sharing" target="_blank" rel="noreferrer" ><h3>📄️ Resume </h3></a>
+             <a href="https://docs.google.com/document/d/1BdhRlyUfZgcpMWeoFJq91cvUiUs0lsoVU1H5wUNl4Io/edit?usp=sharing" target="_blank" rel="noreferrer" ><h3>📄️ Resume </h3></a>
          </div>
      </div>
      </div>
