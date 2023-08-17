@@ -6,6 +6,7 @@ import salad from "../../images/nicolesgraphic-salad-final.png"
 import streetfood from "../../images/nightmarket_dishes.png"
 import golf from "../../images/golf-starterpack-pasture.png"
 import mosaic from "../../images/types_mosaic_h.png"
+import flow from "../../images/watercolor-cam.png"
 import { Link } from "react-router-dom"
 
 export default function Gallery() {
@@ -30,17 +31,28 @@ export default function Gallery() {
             </Link>
             </div>
             <div className="project-row">
+            <Link to="/flow" relative="/flow">
                 <Project 
-                     thumbnail={golf}
-                     title="Golf Starter Pack"
-                     blurb="A birthday card for a loved one"
+                     thumbnail={flow}
+                     title="Flow"
+                     blurb="Rediscovering the activities that put me in a flow state"
                      tag="Personal"
                 />
-           
+           </Link>
+           <Link to="/mosaic" relative="/mosaic">
                 <Project 
                      thumbnail={mosaic}
                      title="36 Days of Type"
                      blurb="Lettering inspired by Taiwanese vintage tiles"
+                     tag="Personal"
+                />
+            </Link>
+            </div>
+            <div className="project-row">
+                 <Project 
+                     thumbnail={golf}
+                     title="Golf Starter Pack"
+                     blurb="A birthday card for a loved one"
                      tag="Personal"
                 />
             </div>
