@@ -16,20 +16,31 @@ a {
 }
 /* home header */
 .header {
-    display: flex;
-    justify-content: center;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+  .header {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 h2 {
     color: rgb(4, 47, 178);
     font-size: 32px;
     font-family: 'Varela Round', sans-serif;
     padding: 114px 40px 80px 40px;
-    line-height: 1.5;
+    line-height: 1.25;
 }
+
 .highlighter {
-    background: #FFFA88;
-    margin-left: 8px;
-    margin-right: 8px;
+  display: inline;
+  background: #fff86a;
+  padding: 0 0.08em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 /* title project */
 h2.title {

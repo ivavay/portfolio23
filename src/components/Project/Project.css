@@ -1,51 +1,63 @@
+.projects-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap; /* optional */
+}
+
 .project-card {
-    padding: 0 0 80px 0;
-    margin: 0;
-  }
-  
-.thumbnail {
-    width: 43vw;
-    height: 70vh;
-    background-color: white;
-    border-radius: 10px;
-    object-fit: cover;
-  }
+  width: 42vw;
+  flex-shrink: 0;
+}
+
+.thumbnail,
 .illos-thumbnail {
-    width: 40vw;
-    height: 90vh;
-    background-color: white;
-    border-radius: 10px;
-    object-fit: cover;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.thumbnail {
+  height: 70vh;
+}
+
+.illos-thumbnail {
+  height: 90vh;
+}
+
+.title-card {
+  padding: 16px 0;
+  overflow-wrap: anywhere;
+}
+
+.blurb {
+  padding: 0;
+  width: 100%;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  word-break: normal;
 }
 
 .article {
-    text-decoration: underline;
-    color: rgb(4, 47, 178);
+  display: inline;
+  text-decoration: underline;
+  color: rgb(4, 47, 178);
+  overflow-wrap: anywhere;
 }
-.tags {
-    display: flex;
-    margin: 24px 0 0 0;
-  }
-.title-card {
-    padding: 16px 0;
-}
-.blurb {
-    padding: 0
-}
-.tag {
-    padding: 8px 16px;
-    background-color: #baefff;
-    color: rgb(4, 47, 178);
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    border-radius: 5px;
-    margin: 0 16px 0 0;
-  }
 
-  @media only screen and (max-width: 600px) {
-    .thumbnail {
-      width: 80vw;
-      height: 40vh;
-    }
-  }
- 
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0 0 0;
+}
+
+.tag {
+  margin: 16px 0;
+  padding: 8px 16px;
+  background-color: #baefff;
+  color: rgb(4, 47, 178);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+}

@@ -16,7 +16,7 @@ export default function PdGallery() {
                      title="Lighthouse Parents"
                      blurb={
                         <>
-                    Practice editorial for article{" "}
+                    Practice editorial for{" "}
                     <a
                         className="article"
                         href="https://www.theatlantic.com/family/archive/2024/09/lighthouse-parents-have-more-confident-kids/679976/"

@@ -6,7 +6,11 @@
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    ;
     
+}
+a {
+    overflow-wrap: anywhere;
 }
 .project-row::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Edge */
