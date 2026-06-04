@@ -10,7 +10,15 @@ h1 {
     font-family: 'Varela Round', sans-serif;
    
 }
+a {
+    text-decoration: none;
+   
+}
 /* home header */
+.header {
+    display: flex;
+    justify-content: center;
+}
 h2 {
     color: rgb(4, 47, 178);
     font-size: 32px;
@@ -20,6 +28,8 @@ h2 {
 }
 .highlighter {
     background: #FFFA88;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 /* title project */
 h2.title {

@@ -1,5 +1,5 @@
-import "./Footer.css"
 import "../../styles.css"
+import "./Footer.css"
 
 export default function Footer() {
     return(
@@ -9,11 +9,10 @@ export default function Footer() {
                 <ul>
                     <a href="https://www.linkedin.com/in/ivy-chen-4065aab7/" target="_blank" rel="noreferrer" ><li>Linkedin</li></a>
                     <a href="https://www.instagram.com/wonderbar.studio/" target="_blank" rel="noreferrer" ><li>Instagram</li></a>
-                    <a href="https://twitter.com/Ivavay" target="_blank" rel="noreferrer" ><li>Twitter</li></a>
                 </ul>
                 <div className="email">📨 ivy0925chen@gmail.com</div>
             </div>
-            <div className="copyright">© Ivy Chen 2023 — Built with care in React.js</div>
+            <div className="copyright">© Ivy Chen 2026 — Built with care in React.js</div>
         </footer>
     )
 }

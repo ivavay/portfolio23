@@ -10,7 +10,18 @@
     border-radius: 10px;
     object-fit: cover;
   }
-  
+.illos-thumbnail {
+    width: 40vw;
+    height: 90vh;
+    background-color: white;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.article {
+    text-decoration: underline;
+    color: rgb(4, 47, 178);
+}
 .tags {
     display: flex;
     margin: 24px 0 0 0;
