@@ -1,28 +1,64 @@
+.about-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.about-main {
+    flex: 1;
+    padding-bottom: 80px;
+}
 .bio {
     padding: 0 80px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(240px, 30%);
+    align-items: stretch;
+    gap: 40px;
+}
+.bio-text {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.bio-image-wrap {
+    min-height: 100%;
+}
+.bio-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 0;
 }
 .faq {
-    padding: 80px 80px 24px 80px;
+    padding: 64px 0 24px;
 }
-h2 {
+.about-heading {
     padding: 114px 80px 80px 80px;
 }
 .link {
     text-decoration: underline;
     color: rgb(4, 47, 178);
 }
+.bio-text .accordian {
+    padding: 0;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-    h2 {
+    .about-heading {
      font-size: 24px;
      padding: 114px 40px 80px 40px;
     }
     .bio {
         padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .bio-image {
+        height: auto;
     }
     .faq {
-        padding: 40px 40px 24px 40px;
+        padding: 40px 0 24px;
     }
  }
-
-

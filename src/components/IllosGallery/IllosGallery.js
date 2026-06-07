@@ -1,12 +1,45 @@
 import lighthouse from "../../images/lighthouse.JPG"
 import momDog from "../../images/mom-and-dog.JPG"
 import womensRun from "../../images/womens-run.JPG"
+import taipeiStreetBuilding from "../../images/taipei-street-building.png"
+import happySummerCard from "../../images/happy-summer-card.png"
+import coastalPostcardPrint from "../../images/coastal-postcard-print.png"
+import boyAndDog from "../../images/boy-and-dog.jpg"
+import fruitSketchbook from "../../images/fruit-sketchbook.png"
+import mosaicFlowers from "../../images/mosaic-flowers.jpg"
 import "../../styles.css"
 import Project from "../Project/Project"
 import "../Project/Project.css"
 import "./IllosGallery.css"
 
 export default function PdGallery() {
+    const sampleIllustrations = [
+        {
+            src: taipeiStreetBuilding,
+            title: "Taipei Street Building",
+        },
+        {
+            src: happySummerCard,
+            title: "Happy Summer Card",
+        },
+        {
+            src: coastalPostcardPrint,
+            title: "Coastal Postcard Print",
+        },
+        {
+            src: boyAndDog,
+            title: "Boy and Dog",
+        },
+        {
+            src: fruitSketchbook,
+            title: "Fruit Sketchbook",
+        },
+        {
+            src: mosaicFlowers,
+            title: "Mosaic Flowers",
+        },
+    ];
+
     return(
         <div>
             <div className="project-row">
@@ -45,6 +78,13 @@ export default function PdGallery() {
                 />
             
             </div>
+            <section className="illos-grid" aria-label="Sample illustrations">
+                {sampleIllustrations.map((illustration) => (
+                    <figure className="illos-grid-item" key={illustration.title}>
+                        <img src={illustration.src} alt={illustration.title} />
+                    </figure>
+                ))}
+            </section>
             
         </div>
     )

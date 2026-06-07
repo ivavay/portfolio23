@@ -1,5 +1,5 @@
-import AccordianItem from "./AccordianItem"
 import "./Accordian.css"
+import AccordianItem from "./AccordianItem"
 
 export default function Accordian() {
     return(
@@ -15,9 +15,9 @@ export default function Accordian() {
                 answer="My go-to tool is Cinema4D + Redshift, though I've been seen dabbling in Blender and Spline as well. For cloths simulations, I use Marvelous Designer."
             />
             <AccordianItem 
-                question="What product have you seen recently that you think is great design?"
-                answer=" I really enjoy the Nike Run App for its guided training plans and data viz breakdowns of your runs.
-                The micro animations and overall experience of the app are phenomenal in getting me motivated to run more frequently.
+                question="What are you currently exploring in illustration?"
+                answer=" I'm exploring textures on top of my already vectorized and cleanly shaped figures for my drawings to add more noise to the parts that needs it. I've also 
+                been really enjoying exploring concepts for editorial articles that I'm reading right now. 
                 "
             />
             <AccordianItem 
