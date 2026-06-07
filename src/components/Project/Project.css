@@ -41,8 +41,9 @@
 @media only screen and (max-width: 600px) {
   .blurb {
     padding: 0;
-    width: 20%;
-  
+    width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
 }
 
