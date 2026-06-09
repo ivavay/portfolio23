@@ -11,6 +11,7 @@ import taipeiStreetBuilding from "../../images/taipei-street-building.png"
 import womensRun from "../../images/womens-run.JPG"
 import youngerThanYouThink from "../../images/younger-than-you-are.JPG"
 import "../../styles.css"
+import LazyImage from "../LazyImage/LazyImage"
 import Project from "../Project/Project"
 import "../Project/Project.css"
 import "./IllosGallery.css"
@@ -105,7 +106,7 @@ export default function PdGallery() {
             <section className="illos-grid" aria-label="Sample illustrations">
                 {sampleIllustrations.map((illustration) => (
                     <figure className="illos-grid-item" key={illustration.title}>
-                        <img src={illustration.src} alt={illustration.title} loading="lazy" decoding="async" />
+                        <LazyImage src={illustration.src} alt={illustration.title} />
                     </figure>
                 ))}
             </section>

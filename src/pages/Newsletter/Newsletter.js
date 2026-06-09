@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar/Navbar"
+import LazyImage from "../../components/LazyImage/LazyImage"
 import salad from "../../images/nicolesgraphic-salad-final.png"
 import saladsketch from "../../images/salad-sketch.jpg"
 import giftbox from "../../images/nicolesgraphics-giftbox.png"
@@ -23,16 +24,16 @@ export default function Newsletter(){
                 </p>
             </div>
             <div className="two-column-imgs">
-                <img src={saladsketch} alt="salad sketch" loading="lazy" decoding="async"/>
-                <img src={salad} alt="salad" loading="lazy" decoding="async"/>
+                <LazyImage src={saladsketch} alt="salad sketch"/>
+                <LazyImage src={salad} alt="salad"/>
             </div>
             <div className="two-column-imgs">
-                <img src={signpostsketch} alt="signpost sketch" loading="lazy" decoding="async"/>
-                <img src={signpost} alt="signpost" loading="lazy" decoding="async"/>
+                <LazyImage src={signpostsketch} alt="signpost sketch"/>
+                <LazyImage src={signpost} alt="signpost"/>
             </div>
             <div className="two-column-imgs">
-                <img src={giftboxsketchcolor} alt="giftbox sketch" loading="lazy" decoding="async"/>
-                <img src={giftbox} alt="giftboxt" loading="lazy" decoding="async"/>
+                <LazyImage src={giftboxsketchcolor} alt="giftbox sketch"/>
+                <LazyImage src={giftbox} alt="giftboxt"/>
             </div>
         </div>
     )

@@ -1,0 +1,37 @@
+.lazy-image {
+  background-color: #f3f8fb;
+  background-image:
+    linear-gradient(100deg, transparent 20%, rgba(255, 255, 255, 0.75) 50%, transparent 80%),
+    linear-gradient(90deg, rgba(4, 47, 178, 0.1) 1px, transparent 1px),
+    linear-gradient(rgba(4, 47, 178, 0.1) 1px, transparent 1px),
+    linear-gradient(135deg, transparent 49%, rgba(4, 47, 178, 0.12) 50%, transparent 51%),
+    linear-gradient(45deg, transparent 49%, rgba(4, 47, 178, 0.1) 50%, transparent 51%);
+  background-position: -150% 0, center, center, center, center;
+  background-size: 60% 100%, 48px 48px, 48px 48px, 100% 100%, 100% 100%;
+  transition: filter 180ms ease, background-color 180ms ease;
+}
+
+.lazy-image:not(.lazy-image-loaded) {
+  animation: lazy-image-shimmer 1.4s ease-in-out infinite;
+  filter: blur(5px);
+}
+
+.lazy-image-loaded {
+  background: none;
+}
+
+@keyframes lazy-image-shimmer {
+  0% {
+    background-position: -150% 0, center, center, center, center;
+  }
+
+  100% {
+    background-position: 250% 0, center, center, center, center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lazy-image:not(.lazy-image-loaded) {
+    animation: none;
+  }
+}

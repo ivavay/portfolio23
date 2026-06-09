@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar/Navbar"
+import LazyImage from "../../components/LazyImage/LazyImage"
 import cam from "../../images/watercolor-cam.png"
 import shoe from "../../images/watercolor-shoe.png"
 import "../../styles.css"
@@ -15,8 +16,8 @@ export default function Flow (){
                 <br></br>
             </div>
             <div className="two-column-imgs">
-                <img src={cam} alt="cam" loading="lazy" decoding="async"/>
-                <img src={shoe} alt="shoe" loading="lazy" decoding="async"/>
+                <LazyImage src={cam} alt="cam"/>
+                <LazyImage src={shoe} alt="shoe"/>
             </div>
         </div>
     )

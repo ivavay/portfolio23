@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar/Navbar"
+import LazyImage from "../../components/LazyImage/LazyImage"
 import "./Streetfood.css"
 import dataviz from "../../images/dataviz-streetfood.png"
 import streetfood from "../../images/nightmarket_dishes.png"
@@ -19,8 +20,8 @@ export default function Streetfood(){
                 </p>
             </div>
             <div className="two-column-imgs">
-                <img src={dataviz} alt="dataviz" loading="lazy" decoding="async"/>
-                <img src={streetfood} alt="streetfood" loading="lazy" decoding="async"/>
+                <LazyImage src={dataviz} alt="dataviz"/>
+                <LazyImage src={streetfood} alt="streetfood"/>
             </div>
         </div>
     )

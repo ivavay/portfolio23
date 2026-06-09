@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar/Navbar"
+import LazyImage from "../../components/LazyImage/LazyImage"
 import r from "../../images/types_mosaic_r.png"
 import h from "../../images/types_mosaic_h.png"
 import g from "../../images/types_mosiac_g.png"
@@ -15,11 +16,11 @@ export default function Mosaic (){
                 <br></br>
             </div>
             <div className="two-column-imgs">
-                <img src={g} alt="g" loading="lazy" decoding="async"/>
-                <img src={h} alt="h" loading="lazy" decoding="async"/>
+                <LazyImage src={g} alt="g"/>
+                <LazyImage src={h} alt="h"/>
             </div>
             <div className="two-column-imgs">
-                <img src={r} alt="r" loading="lazy" decoding="async"/>
+                <LazyImage src={r} alt="r"/>
                 
             </div>
         </div>

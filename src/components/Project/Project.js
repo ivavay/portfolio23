@@ -1,3 +1,4 @@
+import LazyImage from "../LazyImage/LazyImage";
 import { useLocation } from "react-router-dom";
 export default function Project(props) {
 const location = useLocation();
@@ -7,9 +8,9 @@ const thumbnailClass = location.pathname === "/illustrations" ? "illos-thumbnail
       <div className="project-card">
         {/* If page is /illustrations then use class "illos-thumbnail" */}
          <div className="project-image-wrap">
-          <img className={thumbnailClass} src={props.thumbnail} alt={props.title} loading="lazy" decoding="async" />
+          <LazyImage className={thumbnailClass} src={props.thumbnail} alt={props.title} />
           {props.hoverThumbnail && (
-            <img className={`${thumbnailClass} hover-thumbnail`} src={props.hoverThumbnail} alt={`${props.title} draft sketch`} loading="lazy" decoding="async" />
+            <LazyImage className={`${thumbnailClass} hover-thumbnail`} src={props.hoverThumbnail} alt={`${props.title} draft sketch`} />
           )}
          </div>
             <h2 className="title-card">{props.title}</h2>

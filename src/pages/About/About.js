@@ -1,5 +1,6 @@
 import Accordian from "../../components/Accordian/Accordian"
 import Footer from "../../components/Footer/Footer"
+import LazyImage from "../../components/LazyImage/LazyImage"
 import Navbar from "../../components/Navbar/Navbar"
 import bioImage from "../../images/bio-image.jpg"
 import "../../styles.css"
@@ -24,7 +25,7 @@ export default function About(){
                         <Accordian />
                     </div>
                     <div className="bio-image-wrap">
-                        <img className="bio-image" src={bioImage} alt="Ivy at the beach" loading="lazy" decoding="async" />
+                        <LazyImage className="bio-image" src={bioImage} alt="Ivy at the beach" />
                     </div>
                 </div>
             </main>
