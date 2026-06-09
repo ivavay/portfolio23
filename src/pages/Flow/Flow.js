@@ -6,7 +6,7 @@ export default function Flow (){
     return(
         <div>
             <Navbar />
-            <h2>Flow</h2>
+            <h2 className="project-page-title">Flow</h2>
             <div className="bio">
                 <p className="regular">This summer, I wanted to work on a series of watercolor-inspired 3D on the concept of flow, which is a state of
                 well-being where you feel like you're so immersed in the process that you lose track of time. The first two I have here are photography and 
@@ -14,9 +14,9 @@ export default function Flow (){
                 </p>
                 <br></br>
             </div>
-            <div class="two-column-imgs">
-                <img src={cam} alt="cam"/>
-                <img src={shoe} alt="shoe"/>
+            <div className="two-column-imgs">
+                <img src={cam} alt="cam" loading="lazy" decoding="async"/>
+                <img src={shoe} alt="shoe" loading="lazy" decoding="async"/>
             </div>
         </div>
     )

@@ -9,9 +9,9 @@ import "../../styles.css"
 
 export default function Newsletter(){
     return(
-        <div>
+        <div className="newsletter-page">
             <Navbar />
-            <h2>Nicole's Newsletter Graphics</h2>
+            <h2 className="project-page-title">Nicole's Newsletter Graphics</h2>
             <div className="bio">
                 <p className="regular">A couple months ago, I had the chance to work with Nicole Garcia for her <a target="_blank" rel="noreferrer" className="underline" href="https://wontonface.substack.com/">newsletter</a> on freelancing and product design. It had 
                 been a blast working with her and ideating different ways to visualize her articles in 3D. 
@@ -23,16 +23,16 @@ export default function Newsletter(){
                 </p>
             </div>
             <div className="two-column-imgs">
-                <img src={saladsketch} alt="salad sketch"/>
-                <img src={salad} alt="salad"/>
+                <img src={saladsketch} alt="salad sketch" loading="lazy" decoding="async"/>
+                <img src={salad} alt="salad" loading="lazy" decoding="async"/>
             </div>
             <div className="two-column-imgs">
-                <img src={signpostsketch} alt="signpost sketch"/>
-                <img src={signpost} alt="signpost"/>
+                <img src={signpostsketch} alt="signpost sketch" loading="lazy" decoding="async"/>
+                <img src={signpost} alt="signpost" loading="lazy" decoding="async"/>
             </div>
             <div className="two-column-imgs">
-                <img src={giftboxsketchcolor} alt="giftbox sketch"/>
-                <img src={giftbox} alt="giftboxt"/>
+                <img src={giftboxsketchcolor} alt="giftbox sketch" loading="lazy" decoding="async"/>
+                <img src={giftbox} alt="giftboxt" loading="lazy" decoding="async"/>
             </div>
         </div>
     )

@@ -105,7 +105,7 @@ export default function PdGallery() {
             <section className="illos-grid" aria-label="Sample illustrations">
                 {sampleIllustrations.map((illustration) => (
                     <figure className="illos-grid-item" key={illustration.title}>
-                        <img src={illustration.src} alt={illustration.title} />
+                        <img src={illustration.src} alt={illustration.title} loading="lazy" decoding="async" />
                     </figure>
                 ))}
             </section>

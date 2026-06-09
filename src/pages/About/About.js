@@ -24,7 +24,7 @@ export default function About(){
                         <Accordian />
                     </div>
                     <div className="bio-image-wrap">
-                        <img className="bio-image" src={bioImage} alt="Ivy at the beach" />
+                        <img className="bio-image" src={bioImage} alt="Ivy at the beach" loading="lazy" decoding="async" />
                     </div>
                 </div>
             </main>

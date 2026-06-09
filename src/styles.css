@@ -35,6 +35,11 @@ h2 {
     line-height: 1.25;
 }
 
+.project-page-title {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
 .highlighter {
   display: inline;
   background: #fff86a;
@@ -70,11 +75,21 @@ p {
 }
 
 .two-column-imgs {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
     padding: 40px 80px;
-    justify-content: space-between;
     
 }
+
+.newsletter-page .two-column-imgs img {
+    aspect-ratio: 1 / 1;
+    display: block;
+    height: auto;
+    margin: 0;
+    object-fit: cover;
+}
+
 img {
     width: 100%;
     object-fit: cover;
@@ -99,9 +114,12 @@ a {
     font-size: 24px;
     padding: 40px;
    }
+   .project-page-title {
+    padding-left: 40px;
+    padding-right: 40px;
+   }
    .two-column-imgs {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
     padding: 40px;
 
     }
