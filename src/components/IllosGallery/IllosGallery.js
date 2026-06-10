@@ -1,4 +1,5 @@
 import boyAndDog from "../../images/boy-and-dog.jpg"
+import blueWall from "../../images/blue-wall.jpg"
 import coastalPostcardPrint from "../../images/coastal-postcard-print.png"
 import fruitSketchbook from "../../images/fruit-sketchbook.png"
 import happySummerCard from "../../images/happy-summer-card.png"
@@ -7,6 +8,8 @@ import lighthouseDraft from "../../images/lighthouse-draft.jpg"
 import momDog from "../../images/mom-and-dog.JPG"
 import mosaicFlowers from "../../images/mosaic-flowers.jpg"
 import olderThanYouThinkDraft from "../../images/older-than-you-think-draft.jpg"
+import pinkBlueFlowers from "../../images/pink-blue-flowers.jpg"
+import stillLife from "../../images/still-life.jpg"
 import taipeiStreetBuilding from "../../images/taipei-street-building.png"
 import womensRun from "../../images/womens-run.JPG"
 import youngerThanYouThink from "../../images/younger-than-you-are.JPG"
@@ -41,6 +44,18 @@ export default function PdGallery() {
         {
             src: mosaicFlowers,
             title: "Mosaic Flowers",
+        },
+        {
+            src: blueWall,
+            title: "Blue Wall",
+        },
+        {
+            src: stillLife,
+            title: "Still Life",
+        },
+        {
+            src: pinkBlueFlowers,
+            title: "Pink Blue Flowers",
         },
     ];
 
