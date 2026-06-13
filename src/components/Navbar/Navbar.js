@@ -4,8 +4,10 @@ import "./Navbar.css";
 
 export default function Navbar() {
     const location = useLocation();
-    const threeDRoutes = ["/", "/newsletter", "/streetfood", "/flow", "/mosaic"];
+    const threeDRoutes = ["/3d", "/newsletter", "/streetfood", "/flow", "/mosaic"];
     const isThreeDActive = threeDRoutes.includes(location.pathname);
+    const illustrationRoutes = ["/", "/illustrations"];
+    const isIllustrationsActive = illustrationRoutes.includes(location.pathname);
 
     return(
         <div className="tabs">
@@ -13,10 +15,10 @@ export default function Navbar() {
             <NavLink to="/design" className={({isActive}) => isActive ? "tab tab-active" : "tab"}>
                 <h3>🖱 Product Design </h3>
             </NavLink>
-            <NavLink to="/" className={() => isThreeDActive ? "tab tab-active" : "tab"}>
+            <NavLink to="/3d" className={() => isThreeDActive ? "tab tab-active" : "tab"}>
                 <h3>🎨 3D </h3>
             </NavLink>
-            <NavLink to="/illustrations" className={({isActive}) => isActive ? "tab tab-active" : "tab"}>
+            <NavLink to="/" className={() => isIllustrationsActive ? "tab tab-active" : "tab"}>
                 <h3>🧑🏻‍🎨 Illustrations </h3>
             </NavLink>
         </div>

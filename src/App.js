@@ -15,10 +15,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="/" element={<Illustrations />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/streetfood" element={<Streetfood />}/>
         <Route path="/design" element={<Design />}/>
+        <Route path="/3d" element={<Home />}/>
         <Route path="/illustrations" element={<Illustrations />}/>
         <Route path="/strava" element={<Strava />}/>
         <Route path="/newsletter" element={<Newsletter />}/>

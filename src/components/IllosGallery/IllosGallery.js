@@ -1,10 +1,12 @@
-import boyAndDog from "../../images/boy-and-dog.jpg"
 import blueWall from "../../images/blue-wall.jpg"
+import boyAndDog from "../../images/boy-and-dog.jpg"
 import coastalPostcardPrint from "../../images/coastal-postcard-print.png"
 import fruitSketchbook from "../../images/fruit-sketchbook.png"
+import handsDraft from "../../images/hands-draft.JPG"
+import hands from "../../images/hands.JPG"
 import happySummerCard from "../../images/happy-summer-card.png"
-import lighthouse from "../../images/lighthouse.JPG"
 import lighthouseDraft from "../../images/lighthouse-draft.jpg"
+import lighthouse from "../../images/lighthouse.JPG"
 import momDog from "../../images/mom-and-dog.JPG"
 import mosaicFlowers from "../../images/mosaic-flowers.jpg"
 import olderThanYouThinkDraft from "../../images/older-than-you-think-draft.jpg"
@@ -77,6 +79,25 @@ export default function PdGallery() {
                         rel="noopener noreferrer"
                     >
                         "Lighthouse Parents Have More Confident Kids"
+                    </a>
+                    </>
+                }
+                    
+                />
+              <Project 
+                     thumbnail={hands}
+                     hoverThumbnail={handsDraft}
+                     title="Hands"
+                     blurb={
+                        <>
+                    Practice editorial for{" "}
+                    <a
+                        className="article"
+                        href="https://www.thegoodtrade.com/features/importance-of-handcrafting/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        "Why We Need To Work With Our Hands"
                     </a>
                     </>
                 }
