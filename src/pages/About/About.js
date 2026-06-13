@@ -21,11 +21,13 @@ export default function About(){
                             I also write on <a className="link" 
                             href="https://ivychen.substack.com/" rel="noopener noreferrer" target="_blank">Substack</a>  and about technology on <a className="link" href="https://dev.to/ivavay" rel="noopener noreferrer" target="_blank">DevTo.</a>
                         </p>
-                        <h2 className="faq">FAQ's</h2>
-                        <Accordian />
                     </div>
                     <div className="bio-image-wrap">
                         <LazyImage className="bio-image" src={bioImage} alt="Ivy at the beach" />
+                    </div>
+                    <div className="bio-faq">
+                        <h2 className="faq">FAQ's</h2>
+                        <Accordian />
                     </div>
                 </div>
             </main>

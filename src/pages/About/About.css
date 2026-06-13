@@ -10,7 +10,8 @@
 .bio {
     padding: 0 80px;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(240px, 30%);
+    grid-template-columns: minmax(0, 1fr) minmax(180px, 22.5%);
+    grid-template-rows: auto auto;
     align-items: stretch;
     gap: 40px;
 }
@@ -20,6 +21,8 @@
     align-items: stretch;
 }
 .bio-image-wrap {
+    grid-column: 2;
+    grid-row: 1;
     min-height: 100%;
 }
 .bio-image {
@@ -33,6 +36,10 @@
 .faq {
     padding: 64px 0 24px;
 }
+.bio-faq {
+    grid-column: 1;
+    grid-row: 2;
+}
 .about-heading {
     padding: 114px 80px 80px 80px;
 }
@@ -41,6 +48,9 @@
     color: rgb(4, 47, 178);
 }
 .bio-text .accordian {
+    padding: 0;
+}
+.bio-faq .accordian {
     padding: 0;
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -57,6 +67,9 @@
     }
     .bio-image {
         height: auto;
+    }
+    .bio-faq {
+        width: 100%;
     }
     .faq {
         padding: 40px 0 24px;

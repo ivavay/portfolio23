@@ -6,12 +6,11 @@
     linear-gradient(rgba(4, 47, 178, 0.1) 1px, transparent 1px);
   background-position: -150% 0, center, center;
   background-size: 60% 100%, 48px 48px, 48px 48px;
-  transition: filter 180ms ease, background-color 180ms ease;
+  transition: background-color 180ms ease;
 }
 
 .lazy-image:not(.lazy-image-loaded) {
   animation: lazy-image-shimmer 1.4s ease-in-out infinite;
-  filter: blur(5px);
 }
 
 .lazy-image-loaded {
