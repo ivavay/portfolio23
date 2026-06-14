@@ -7,6 +7,7 @@ import hands from "../../images/hands.JPG"
 import happySummerCard from "../../images/happy-summer-card.png"
 import lighthouseDraft from "../../images/lighthouse-draft.jpg"
 import lighthouse from "../../images/lighthouse.JPG"
+import maplesFriends from "../../images/maples-friends.jpg"
 import momDog from "../../images/mom-and-dog.JPG"
 import mosaicFlowers from "../../images/mosaic-flowers.jpg"
 import olderThanYouThinkDraft from "../../images/older-than-you-think-draft.jpg"
@@ -23,6 +24,10 @@ import "./IllosGallery.css"
 
 export default function PdGallery() {
     const sampleIllustrations = [
+        {
+            src: maplesFriends,
+            title: "Maples Friends",
+        },
         {
             src: taipeiStreetBuilding,
             title: "Taipei Street Building",
