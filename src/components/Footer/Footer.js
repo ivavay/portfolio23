@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="socials">
                 <ul>
                     <a href="https://www.linkedin.com/in/ivy-chen-4065aab7/" target="_blank" rel="noreferrer" ><li>Linkedin</li></a>
-                    <a href="https://www.instagram.com/wonderbar.studio/" target="_blank" rel="noreferrer" ><li>Instagram</li></a>
+                    <a href="https://x.com/wunderbarruns" target="_blank" rel="noreferrer" ><li>Twitter</li></a>
                 </ul>
                 <div className="email">📨 ivy0925chen@gmail.com</div>
             </div>
