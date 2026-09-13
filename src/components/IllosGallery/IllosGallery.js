@@ -21,16 +21,26 @@ import LazyImage from "../LazyImage/LazyImage"
 import Project from "../Project/Project"
 import "../Project/Project.css"
 import "./IllosGallery.css"
+import plum from "../../images/peachtober-plum.webp"
+import oak from "../../images/peachtober-oak-tree.webp"
 
 export default function PdGallery() {
     const sampleIllustrations = [
+         {
+            src: plum,
+            title: "Peachtober - Plum",
+        },
+         {
+            src: oak,
+            title: "Peachtober - Oak",
+        },
         {
             src: maplesFriends,
-            title: "Maples Friends",
+            title: "Maple's Friends",
         },
         {
             src: taipeiStreetBuilding,
-            title: "Taipei Street Building",
+            title: "Taipei Dihua Building",
         },
         {
             src: happySummerCard,
@@ -38,7 +48,7 @@ export default function PdGallery() {
         },
         {
             src: coastalPostcardPrint,
-            title: "Coastal Postcard Print",
+            title: "Muir Woods Beach",
         },
         {
             src: boyAndDog,
@@ -46,7 +56,7 @@ export default function PdGallery() {
         },
         {
             src: fruitSketchbook,
-            title: "Fruit Sketchbook",
+            title: "Wonderfully Made",
         },
         {
             src: mosaicFlowers,
@@ -149,6 +159,9 @@ export default function PdGallery() {
                 {sampleIllustrations.map((illustration) => (
                     <figure className="illos-grid-item" key={illustration.title}>
                         <LazyImage src={illustration.src} alt={illustration.title} />
+                        <figcaption className="illos-grid-title">
+                            {illustration.title}
+                        </figcaption>
                     </figure>
                 ))}
             </section>

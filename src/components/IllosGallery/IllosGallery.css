@@ -24,6 +24,7 @@ a {
 }
 
 .illos-grid-item {
+    position: relative;
     aspect-ratio: 1 / 1;
     overflow: hidden;
     border-radius: 10px;
@@ -37,6 +38,39 @@ a {
     display: block;
     object-fit: cover;
     margin: 0;
+}
+
+.illos-grid-title {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 18px 20px;
+    background: rgba(255, 255, 255, 0.78);
+    color: rgb(4, 47, 178);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transform: translateY(100%);
+    transition: transform 280ms ease;
+}
+
+.illos-grid-item:hover .illos-grid-title {
+    transform: translateY(0);
+}
+
+@media (hover: none) {
+    .illos-grid-title {
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .illos-grid-title {
+        transition: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
