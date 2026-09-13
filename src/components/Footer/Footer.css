@@ -48,7 +48,48 @@ a {
     font-family: 'Varela Round', sans-serif; 
     font-size: 16px;
     border-radius: 5px;
+    border: 0;
     background-color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+ }
+
+ .email:hover {
+    background-color: #f7fdff;
+ }
+
+ .email:focus-visible {
+    outline: 2px solid rgb(4, 47, 178);
+    outline-offset: 3px;
+ }
+
+ .copy-icon {
+    position: relative;
+    width: 14px;
+    height: 14px;
+ }
+
+ .copy-icon::before,
+ .copy-icon::after {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 1.5px solid currentColor;
+    border-radius: 2px;
+    content: "";
+ }
+
+ .copy-icon::before {
+    top: 1px;
+    left: 1px;
+ }
+
+ .copy-icon::after {
+    right: 1px;
+    bottom: 1px;
+    background: #ffffff;
  }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
