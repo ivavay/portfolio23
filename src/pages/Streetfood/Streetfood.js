@@ -1,8 +1,8 @@
 import Navbar from "../../components/Navbar/Navbar"
 import LazyImage from "../../components/LazyImage/LazyImage"
 import "./Streetfood.css"
-import dataviz from "../../images/dataviz-streetfood.png"
-import streetfood from "../../images/nightmarket_dishes.png"
+import dataviz from "../../images/dataviz-streetfood.webp"
+import streetfood from "../../images/nightmarket_dishes.webp"
 import "../../styles.css"
 export default function Streetfood(){
     return(

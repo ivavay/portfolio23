@@ -1,11 +1,11 @@
 import Navbar from "../../components/Navbar/Navbar"
 import LazyImage from "../../components/LazyImage/LazyImage"
-import salad from "../../images/nicolesgraphic-salad-final.png"
-import saladsketch from "../../images/salad-sketch.jpg"
-import giftbox from "../../images/nicolesgraphics-giftbox.png"
-import signpostsketch from "../../images/signpost-sketch.png"
-import signpost from "../../images/nicolesgraphics-signpost.png"
-import giftboxsketchcolor from "../../images/giftbox-sketchcolor.png"
+import salad from "../../images/nicolesgraphic-salad-final.webp"
+import saladsketch from "../../images/salad-sketch.webp"
+import giftbox from "../../images/nicolesgraphics-giftbox.webp"
+import signpostsketch from "../../images/signpost-sketch.webp"
+import signpost from "../../images/nicolesgraphics-signpost.webp"
+import giftboxsketchcolor from "../../images/giftbox-sketchcolor.webp"
 import "../../styles.css"
 
 export default function Newsletter(){

@@ -1,9 +1,9 @@
 import "./Strava.css"
 import LazyImage from "../../components/LazyImage/LazyImage"
-import stravatn from "../../images/strava-redesign.png"
-import sketches from "../../images/strava-sketches.png"
-import feedback from "../../images/strava-feedback.png"
-import gif from "../../images/strava.gif"
+import stravatn from "../../images/strava-redesign.webp"
+import sketches from "../../images/strava-sketches.webp"
+import feedback from "../../images/strava-feedback.webp"
+import gif from "../../images/strava.webp"
 
 
 export default function Strava() {

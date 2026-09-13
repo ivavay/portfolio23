@@ -1,8 +1,8 @@
 import Navbar from "../../components/Navbar/Navbar"
 import LazyImage from "../../components/LazyImage/LazyImage"
-import r from "../../images/types_mosaic_r.png"
-import h from "../../images/types_mosaic_h.png"
-import g from "../../images/types_mosiac_g.png"
+import r from "../../images/types_mosaic_r.webp"
+import h from "../../images/types_mosaic_h.webp"
+import g from "../../images/types_mosiac_g.webp"
 import "../../styles.css"
 export default function Mosaic (){
     return(

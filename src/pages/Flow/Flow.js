@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar/Navbar"
 import LazyImage from "../../components/LazyImage/LazyImage"
-import cam from "../../images/watercolor-cam.png"
-import shoe from "../../images/watercolor-shoe.png"
+import cam from "../../images/watercolor-cam.webp"
+import shoe from "../../images/watercolor-shoe.webp"
 import "../../styles.css"
 export default function Flow (){
     return(

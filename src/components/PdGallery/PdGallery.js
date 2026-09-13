@@ -2,7 +2,7 @@ import "./PdGallery.css"
 import "../../styles.css"
 import Project from "../Project/Project"
 import "../Project/Project.css"
-import stravatn from "../../images/strava-redesign.png"
+import stravatn from "../../images/strava-redesign.webp"
 import { Link } from "react-router-dom"
 
 export default function PdGallery() {

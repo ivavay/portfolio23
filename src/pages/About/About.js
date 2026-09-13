@@ -2,7 +2,7 @@ import Accordian from "../../components/Accordian/Accordian"
 import Footer from "../../components/Footer/Footer"
 import LazyImage from "../../components/LazyImage/LazyImage"
 import Navbar from "../../components/Navbar/Navbar"
-import bioImage from "../../images/bio-image.jpg"
+import bioImage from "../../images/bio-image.webp"
 import "../../styles.css"
 import "./About.css"
 

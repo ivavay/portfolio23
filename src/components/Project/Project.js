@@ -9,7 +9,13 @@ const thumbnailClass = isIllustrationsPage ? "illos-thumbnail" : "thumbnail";
       <div className="project-card">
         {/* If page is illustrations then use class "illos-thumbnail" */}
          <div className="project-image-wrap">
-          <LazyImage className={thumbnailClass} src={props.thumbnail} alt={props.title} />
+          <LazyImage
+            className={thumbnailClass}
+            src={props.thumbnail}
+            alt={props.title}
+            loading={props.priority ? "eager" : "lazy"}
+            fetchPriority={props.priority ? "high" : "auto"}
+          />
           {props.hoverThumbnail && (
             <LazyImage className={`${thumbnailClass} hover-thumbnail`} src={props.hoverThumbnail} alt={`${props.title} draft sketch`} />
           )}
