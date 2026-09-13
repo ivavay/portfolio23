@@ -16,7 +16,7 @@ const thumbnailClass = isIllustrationsPage ? "illos-thumbnail" : "thumbnail";
             loading={props.priority ? "eager" : "lazy"}
             fetchPriority={props.priority ? "high" : "auto"}
           />
-          {props.hoverThumbnail && (
+          {props.hoverThumbnail && !isIllustrationsPage && (
             <LazyImage className={`${thumbnailClass} hover-thumbnail`} src={props.hoverThumbnail} alt={`${props.title} draft sketch`} />
           )}
          </div>
